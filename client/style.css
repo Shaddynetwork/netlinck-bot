@@ -11,6 +11,10 @@ body {
   background: #343541;
 }
 
+h1,h2{
+  position:sticky
+}
+
 #app {
   width: 100vw;
   height: 100vh;
