@@ -11,8 +11,10 @@ body {
   background: #343541;
 }
 
-h1,h2{
-  position:sticky
+nav
+{  background-color: aliceblue;
+   position: fixed;
+   top: 0px;
 }
 
 #app {
