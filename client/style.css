@@ -28,12 +28,16 @@ body {
   .bottomheader{
     border-radius: 400px;
     padding:0px;
+    top:50px;
+    margin-top: 100px;
     position:absolute;
     
   } 
   .topheader{
     border-radius: 400px;
     padding:0px;
+    top: 20px;
+    margin-top: 20px;
     z-index: 2;
     position:absolute;
 
@@ -55,6 +59,7 @@ body {
   z-index: 3;
   background:whitesmoke;
   color:black;
+  width: 95%;
 }
 
 #chat_container {
