@@ -3,7 +3,7 @@ import user from './assets/user.svg';
 
 const form = document.querySelector('form');
 const chatContainer = document.querySelector("#chat_container");
-
+const sends=document.querySelector(".send");
 const textarea=document.querySelector('.textarea');
 
 
@@ -121,8 +121,16 @@ const handleSubmit = async (e) => {
    
 }
 form.addEventListener('submit', handleSubmit)
+sends.onclick=(e)=>{
+    handleSubmit(e);
+}
+
 form.addEventListener('keyup', (e) => {
     if (e.keyCode === 13) {
         handleSubmit(e)
     }
-})
+}
+
+
+
+)
