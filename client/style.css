@@ -40,8 +40,8 @@ body {
   .topheader{
     border-radius: 400px;
     padding:0px;
-    top: 200px;
-    margin-top: 240px;
+    top: 240px;
+    margin-top: 270px;
     z-index: 2;
     position:absolute;
 
