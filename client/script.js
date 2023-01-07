@@ -124,17 +124,18 @@ form.addEventListener('submit', handleSubmit)
 // sends.onclick=(e)=>{
 //     handleSubmit(e);
 // }
+form.addEventListener('click',(e)=>{
+    if(sends.onclick){
+        handleSubmit(e);
 
+    }
+})
 form.addEventListener('keyup', (e) => {
     if (e.keyCode === 13) {
         handleSubmit(e)
     }
-    else if(sends.onclick){
-        handleSubmit(e);
 
-    }else{
-        false;
-    }
+ 
 }
 
 
