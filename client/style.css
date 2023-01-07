@@ -26,18 +26,17 @@ body {
     flex-direction: column;
   }
   .bottomheader{
-    width:400px;
-    height:400px;
     border-radius: 400px;
     padding:0px;
-    margin-top: 300px;
+    position:absolute;
     
-  } .topheader{
-    width:200px;
-    height:200px;
+  } 
+  .topheader{
     border-radius: 400px;
     padding:0px;
     z-index: 2;
+    position:absolute;
+
 
   }
 }
