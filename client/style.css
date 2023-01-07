@@ -34,6 +34,7 @@ body {
 }
 .textarea{
   z-index: 3;
+  background:white;
 }
 
 #chat_container {
