@@ -121,17 +121,7 @@ const handleSubmit = async (e) => {
    
 }
 form.addEventListener('submit', handleSubmit)
-// sends.onclick=(e)=>{
-//     handleSubmit(e);
-// }
-if(sends.onclick===true){
 
-form.addEventListener('click',(e)=>{
-        handleSubmit(e);
-
-})
-}
-else{false}
 
 form.addEventListener('keyup', (e) => {
     if (e.keyCode === 13) {
@@ -147,7 +137,7 @@ form.addEventListener('keyup', (e) => {
 
 // Get the button element
 const paperPlaneButton = document.getElementById('paper-plane-button');
-paperPlaneButton.addEventListener('submit', handleSubmit);
+paperPlaneButton.addEventListener('click', handleSubmit);
 
 function submitForm(){
     document.querySelector('form').submit();
