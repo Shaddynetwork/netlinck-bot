@@ -7,7 +7,7 @@ const chatContainer = document.querySelector("#chat_container");
 const textarea=document.querySelector('.textarea');
 
 ()=>{
-    textarea.style.marginTop=window.innerHeight-getComputedStyle(textarea).getPropertyValue(height);
+    textarea.style.marginTop=window.innerHeight-(getComputedStyle(textarea).getPropertyValue(height)+50);
 }
 
 let loadInterval

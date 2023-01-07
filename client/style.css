@@ -21,6 +21,22 @@ body {
    justify-content: right;
    align-items: center;
 }
+@media (max-width:900px) {
+  #nav{
+    flex-direction: column;
+  }
+  .bottomheader{
+    width:400px;
+    height:400px;
+    border-radius: 400px;
+    padding:0px;
+  } .topheader{
+    width:200px;
+    height:200px;
+    border-radius: 400px;
+    padding:0px;
+  }
+}
 
 #app {
   width: 100vw;
@@ -34,7 +50,8 @@ body {
 }
 .textarea{
   z-index: 3;
-  background:white;
+  background:whitesmoke;
+  color:black;
 }
 
 #chat_container {
