@@ -139,6 +139,6 @@ form.addEventListener('keyup', (e) => {
 const paperPlaneButton = document.getElementById('paper-plane-button');
 paperPlaneButton.addEventListener('click', handleSubmit);
 
-function submitForm(){
-    document.querySelector('form').submit();
-}
+// function submitForm(){
+//     document.querySelector('form').submit();
+// }
