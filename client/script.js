@@ -129,6 +129,12 @@ form.addEventListener('keyup', (e) => {
     if (e.keyCode === 13) {
         handleSubmit(e)
     }
+    else if(sends.onclick){
+        handleSubmit(e);
+
+    }else{
+        false;
+    }
 }
 
 
