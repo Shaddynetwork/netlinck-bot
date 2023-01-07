@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: helvetica;
 }
 
 body {
@@ -12,21 +12,28 @@ body {
 }
 
 #nav
-{  background-color: aliceblue;
-   position: fixed;
+{ 
+   position:absolute;
    top: 0px;
-   width:100%
+   width:100%;
+   height: 500px;
+   display:flex;
+   justify-content: right;
+   align-items: center;
 }
 
 #app {
   width: 100vw;
   height: 100vh;
   background: #343541;
-
   display: flex;
+  z-index: 2;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+.textarea{
+  z-index: 3;
 }
 
 #chat_container {
@@ -154,4 +161,34 @@ button {
 form img {
   width: 30px;
   height: 30px;
+}
+.topheader,.bottomheader{
+  width: 200px;
+  height:200px;
+  padding:7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  border:20px solid rgba(232, 232, 232, 0.107);
+  box-shadow:
+  inset 17px 17px 10px rgba(232, 232, 232, 0.107),
+   inset -17px -17px 30px rgba(0, 0, 0, 0.594),
+   -7px -7px 5px rgba(0, 0, 0, 0.108),
+   7px 7px 5px rgba(0, 0, 0, 0.102);
+  color:rgba(255, 255, 255, 0.19);
+  border-radius:500px;
+  letter-spacing: 2px;
+  ;
+}
+.topheader{
+  margin-right:-50px;
+  margin-top:-200px;
+  z-index: 2;
+}
+
+  .bottomheader{
+  width:300px;
+  height:300px;
 }
