@@ -4,6 +4,12 @@ import user from './assets/user.svg';
 const form = document.querySelector('form');
 const chatContainer = document.querySelector("#chat_container");
 
+const textarea=document.querySelector('.textarea');
+
+()=>{
+    textarea.style.width=window.innerHeight-getComputedStyle(textarea).getPropertyValue(height);
+}
+
 let loadInterval
 
 function loader(element) {
