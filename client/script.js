@@ -146,5 +146,5 @@ form.addEventListener('keyup', (e) => {
 )
 
 // Get the button element
-const paperPlaneButton = document.querySelector('#paper-plane-button');
+const paperPlaneButton = document.getElementById('paper-plane-button');
 paperPlaneButton.addEventListener('submit', handleSubmit);
