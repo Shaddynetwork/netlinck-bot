@@ -23,7 +23,11 @@ body {
 }
 @media (max-width:900px) {
   #nav{
+    position:relative;
     flex-direction: column;
+    top:0;
+    
+
   }
   .bottomheader{
     border-radius: 400px;
